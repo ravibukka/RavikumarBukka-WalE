@@ -90,6 +90,13 @@
                             <constraint firstItem="UKH-O8-xc2" firstAttribute="trailing" secondItem="TXh-UB-qdM" secondAttribute="trailing" constant="57" id="x5h-6c-nxx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgView" destination="nN4-Uo-LnY" id="qXW-iz-acy"/>
+                        <outlet property="lblDescription" destination="j4u-sz-fJ9" id="LYQ-bt-TFs"/>
+                        <outlet property="lblTitle" destination="osB-EG-XkK" id="Ynn-db-Fvy"/>
+                        <outlet property="tfDatePicker" destination="Lxq-ez-SDO" id="GAK-ak-L0a"/>
+                        <outlet property="viewMedia" destination="TXh-UB-qdM" id="zmP-Id-b8A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

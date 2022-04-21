@@ -24,6 +24,10 @@
 		C3F9B7582811C8F5000481C7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B7562811C8F5000481C7 /* Common.swift */; };
 		C3F9B75A2811C9E5000481C7 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C3F9B7592811C9E5000481C7 /* Config.xcconfig */; };
 		C3F9B75B2811C9E5000481C7 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C3F9B7592811C9E5000481C7 /* Config.xcconfig */; };
+		C3F9B75C2811CB03000481C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D57FF3280EF6D5001DBE1F /* Main.storyboard */; };
+		C3F9B75D2811CB04000481C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D57FF3280EF6D5001DBE1F /* Main.storyboard */; };
+		C3F9B7602811CC36000481C7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B75F2811CC36000481C7 /* HomeViewModel.swift */; };
+		C3F9B7612811CC36000481C7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B75F2811CC36000481C7 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,7 @@
 		C3F9B7512811C76C000481C7 /* ApodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodResponse.swift; sourceTree = "<group>"; };
 		C3F9B7562811C8F5000481C7 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		C3F9B7592811C9E5000481C7 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		C3F9B75F2811CC36000481C7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,7 @@
 		C3D57FEC280EF6D5001DBE1F /* NASAPic */ = {
 			isa = PBXGroup;
 			children = (
+				C3F9B75E2811CC0B000481C7 /* ViewModels */,
 				C3F9B7552811C8CC000481C7 /* Common */,
 				C3F9B7542811C7DB000481C7 /* Views */,
 				C3F9B74C2811C706000481C7 /* Model */,
@@ -173,6 +179,14 @@
 				C3F9B7562811C8F5000481C7 /* Common.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		C3F9B75E2811CC0B000481C7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9B75F2811CC36000481C7 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3F9B75B2811C9E5000481C7 /* Config.xcconfig in Resources */,
+				C3F9B75D2811CB04000481C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F9B75C2811CB03000481C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +326,7 @@
 			files = (
 				C3D57FF2280EF6D5001DBE1F /* ViewController.swift in Sources */,
 				C3F9B74F2811C755000481C7 /* ApodRequest.swift in Sources */,
+				C3F9B7602811CC36000481C7 /* HomeViewModel.swift in Sources */,
 				C3D57FEE280EF6D5001DBE1F /* AppDelegate.swift in Sources */,
 				C3D57FF0280EF6D5001DBE1F /* SceneDelegate.swift in Sources */,
 				C3F9B7572811C8F5000481C7 /* Common.swift in Sources */,
@@ -324,6 +341,7 @@
 				C3F9B7582811C8F5000481C7 /* Common.swift in Sources */,
 				C3F9B7532811C76C000481C7 /* ApodResponse.swift in Sources */,
 				C3D58005280EF6D7001DBE1F /* NASAPicTests.swift in Sources */,
+				C3F9B7612811CC36000481C7 /* HomeViewModel.swift in Sources */,
 				C3F9B7502811C755000481C7 /* ApodRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
