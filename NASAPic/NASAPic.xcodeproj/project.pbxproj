@@ -22,6 +22,8 @@
 		C3F9B7532811C76C000481C7 /* ApodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B7512811C76C000481C7 /* ApodResponse.swift */; };
 		C3F9B7572811C8F5000481C7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B7562811C8F5000481C7 /* Common.swift */; };
 		C3F9B7582811C8F5000481C7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B7562811C8F5000481C7 /* Common.swift */; };
+		C3F9B75A2811C9E5000481C7 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C3F9B7592811C9E5000481C7 /* Config.xcconfig */; };
+		C3F9B75B2811C9E5000481C7 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C3F9B7592811C9E5000481C7 /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,7 @@
 		C3F9B74E2811C755000481C7 /* ApodRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodRequest.swift; sourceTree = "<group>"; };
 		C3F9B7512811C76C000481C7 /* ApodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodResponse.swift; sourceTree = "<group>"; };
 		C3F9B7562811C8F5000481C7 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C3F9B7592811C9E5000481C7 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 				C3D57FF6280EF6D7001DBE1F /* Assets.xcassets */,
 				C3D57FF8280EF6D7001DBE1F /* LaunchScreen.storyboard */,
 				C3D57FFB280EF6D7001DBE1F /* Info.plist */,
+				C3F9B7592811C9E5000481C7 /* Config.xcconfig */,
 			);
 			path = NASAPic;
 			sourceTree = "<group>";
@@ -275,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F9B75A2811C9E5000481C7 /* Config.xcconfig in Resources */,
 				C3D57FFA280EF6D7001DBE1F /* LaunchScreen.storyboard in Resources */,
 				C3D57FF7280EF6D7001DBE1F /* Assets.xcassets in Resources */,
 				C3D57FF5280EF6D5001DBE1F /* Main.storyboard in Resources */,
@@ -285,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F9B75B2811C9E5000481C7 /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
