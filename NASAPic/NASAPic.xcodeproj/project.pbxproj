@@ -16,6 +16,12 @@
 		C3D58005280EF6D7001DBE1F /* NASAPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D58004280EF6D7001DBE1F /* NASAPicTests.swift */; };
 		C3D5800F280EF6D7001DBE1F /* NASAPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5800E280EF6D7001DBE1F /* NASAPicUITests.swift */; };
 		C3D58011280EF6D7001DBE1F /* NASAPicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D58010280EF6D7001DBE1F /* NASAPicUITestsLaunchTests.swift */; };
+		C3F9B74F2811C755000481C7 /* ApodRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B74E2811C755000481C7 /* ApodRequest.swift */; };
+		C3F9B7502811C755000481C7 /* ApodRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B74E2811C755000481C7 /* ApodRequest.swift */; };
+		C3F9B7522811C76C000481C7 /* ApodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B7512811C76C000481C7 /* ApodResponse.swift */; };
+		C3F9B7532811C76C000481C7 /* ApodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B7512811C76C000481C7 /* ApodResponse.swift */; };
+		C3F9B7572811C8F5000481C7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B7562811C8F5000481C7 /* Common.swift */; };
+		C3F9B7582811C8F5000481C7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B7562811C8F5000481C7 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,9 @@
 		C3D5800A280EF6D7001DBE1F /* NASAPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASAPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D5800E280EF6D7001DBE1F /* NASAPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAPicUITests.swift; sourceTree = "<group>"; };
 		C3D58010280EF6D7001DBE1F /* NASAPicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAPicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3F9B74E2811C755000481C7 /* ApodRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodRequest.swift; sourceTree = "<group>"; };
+		C3F9B7512811C76C000481C7 /* ApodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodResponse.swift; sourceTree = "<group>"; };
+		C3F9B7562811C8F5000481C7 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +108,11 @@
 		C3D57FEC280EF6D5001DBE1F /* NASAPic */ = {
 			isa = PBXGroup;
 			children = (
+				C3F9B7552811C8CC000481C7 /* Common */,
+				C3F9B7542811C7DB000481C7 /* Views */,
+				C3F9B74C2811C706000481C7 /* Model */,
 				C3D57FED280EF6D5001DBE1F /* AppDelegate.swift */,
 				C3D57FEF280EF6D5001DBE1F /* SceneDelegate.swift */,
-				C3D57FF1280EF6D5001DBE1F /* ViewController.swift */,
-				C3D57FF3280EF6D5001DBE1F /* Main.storyboard */,
 				C3D57FF6280EF6D7001DBE1F /* Assets.xcassets */,
 				C3D57FF8280EF6D7001DBE1F /* LaunchScreen.storyboard */,
 				C3D57FFB280EF6D7001DBE1F /* Info.plist */,
@@ -125,6 +135,40 @@
 				C3D58010280EF6D7001DBE1F /* NASAPicUITestsLaunchTests.swift */,
 			);
 			path = NASAPicUITests;
+			sourceTree = "<group>";
+		};
+		C3F9B74C2811C706000481C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9B74D2811C717000481C7 /* ApodModels */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3F9B74D2811C717000481C7 /* ApodModels */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9B74E2811C755000481C7 /* ApodRequest.swift */,
+				C3F9B7512811C76C000481C7 /* ApodResponse.swift */,
+			);
+			path = ApodModels;
+			sourceTree = "<group>";
+		};
+		C3F9B7542811C7DB000481C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3D57FF1280EF6D5001DBE1F /* ViewController.swift */,
+				C3D57FF3280EF6D5001DBE1F /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3F9B7552811C8CC000481C7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C3F9B7562811C8F5000481C7 /* Common.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +303,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3D57FF2280EF6D5001DBE1F /* ViewController.swift in Sources */,
+				C3F9B74F2811C755000481C7 /* ApodRequest.swift in Sources */,
 				C3D57FEE280EF6D5001DBE1F /* AppDelegate.swift in Sources */,
 				C3D57FF0280EF6D5001DBE1F /* SceneDelegate.swift in Sources */,
+				C3F9B7572811C8F5000481C7 /* Common.swift in Sources */,
+				C3F9B7522811C76C000481C7 /* ApodResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F9B7582811C8F5000481C7 /* Common.swift in Sources */,
+				C3F9B7532811C76C000481C7 /* ApodResponse.swift in Sources */,
 				C3D58005280EF6D7001DBE1F /* NASAPicTests.swift in Sources */,
+				C3F9B7502811C755000481C7 /* ApodRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
