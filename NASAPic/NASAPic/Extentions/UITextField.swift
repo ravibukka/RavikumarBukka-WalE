@@ -39,7 +39,9 @@ extension UITextField {
                                                     width: screenWidth,
                                                     height: 216))
         datePicker.datePickerMode = datePickerMode
-        datePicker.preferredDatePickerStyle = .wheels
+        if #available(iOS 13.4, *) {
+            datePicker.preferredDatePickerStyle = .wheels
+        }
         self.inputView = datePicker
         
         let toolBar = UIToolbar(frame: CGRect(x: 0,
