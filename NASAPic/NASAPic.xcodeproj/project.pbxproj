@@ -17,13 +17,16 @@
 		C36252D2281305C1003678DD /* ApodUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252D0281305C1003678DD /* ApodUrl.swift */; };
 		C36252D528130654003678DD /* ApodResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252D428130654003678DD /* ApodResource.swift */; };
 		C36252D628130654003678DD /* ApodResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252D428130654003678DD /* ApodResource.swift */; };
+		C36252D828130D13003678DD /* ApodVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252D728130D13003678DD /* ApodVMTests.swift */; };
+		C36252DA2813130C003678DD /* ConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252D92813130C003678DD /* ConstantsTests.swift */; };
+		C36252DC2813132A003678DD /* ApiEndpointsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252DB2813132A003678DD /* ApiEndpointsTests.swift */; };
+		C36252DE2813134C003678DD /* HomeVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252DD2813134B003678DD /* HomeVCTests.swift */; };
 		C3D57FEE280EF6D5001DBE1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57FED280EF6D5001DBE1F /* AppDelegate.swift */; };
 		C3D57FF0280EF6D5001DBE1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57FEF280EF6D5001DBE1F /* SceneDelegate.swift */; };
 		C3D57FF2280EF6D5001DBE1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57FF1280EF6D5001DBE1F /* ViewController.swift */; };
 		C3D57FF5280EF6D5001DBE1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D57FF3280EF6D5001DBE1F /* Main.storyboard */; };
 		C3D57FF7280EF6D7001DBE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D57FF6280EF6D7001DBE1F /* Assets.xcassets */; };
 		C3D57FFA280EF6D7001DBE1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D57FF8280EF6D7001DBE1F /* LaunchScreen.storyboard */; };
-		C3D58005280EF6D7001DBE1F /* NASAPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D58004280EF6D7001DBE1F /* NASAPicTests.swift */; };
 		C3D5800F280EF6D7001DBE1F /* NASAPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D5800E280EF6D7001DBE1F /* NASAPicUITests.swift */; };
 		C3D58011280EF6D7001DBE1F /* NASAPicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D58010280EF6D7001DBE1F /* NASAPicUITestsLaunchTests.swift */; };
 		C3F9B74F2811C755000481C7 /* ApodRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9B74E2811C755000481C7 /* ApodRequest.swift */; };
@@ -63,6 +66,10 @@
 		C36252CD281305B4003678DD /* HttpUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpUtility.swift; sourceTree = "<group>"; };
 		C36252D0281305C1003678DD /* ApodUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodUrl.swift; sourceTree = "<group>"; };
 		C36252D428130654003678DD /* ApodResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodResource.swift; sourceTree = "<group>"; };
+		C36252D728130D13003678DD /* ApodVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodVMTests.swift; sourceTree = "<group>"; };
+		C36252D92813130C003678DD /* ConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTests.swift; sourceTree = "<group>"; };
+		C36252DB2813132A003678DD /* ApiEndpointsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndpointsTests.swift; sourceTree = "<group>"; };
+		C36252DD2813134B003678DD /* HomeVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCTests.swift; sourceTree = "<group>"; };
 		C3D57FEA280EF6D5001DBE1F /* NASAPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D57FED280EF6D5001DBE1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3D57FEF280EF6D5001DBE1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +79,6 @@
 		C3D57FF9280EF6D7001DBE1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3D57FFB280EF6D7001DBE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D58000280EF6D7001DBE1F /* NASAPicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASAPicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3D58004280EF6D7001DBE1F /* NASAPicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAPicTests.swift; sourceTree = "<group>"; };
 		C3D5800A280EF6D7001DBE1F /* NASAPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASAPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D5800E280EF6D7001DBE1F /* NASAPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAPicUITests.swift; sourceTree = "<group>"; };
 		C3D58010280EF6D7001DBE1F /* NASAPicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAPicUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -168,7 +174,10 @@
 		C3D58003280EF6D7001DBE1F /* NASAPicTests */ = {
 			isa = PBXGroup;
 			children = (
-				C3D58004280EF6D7001DBE1F /* NASAPicTests.swift */,
+				C36252D728130D13003678DD /* ApodVMTests.swift */,
+				C36252D92813130C003678DD /* ConstantsTests.swift */,
+				C36252DB2813132A003678DD /* ApiEndpointsTests.swift */,
+				C36252DD2813134B003678DD /* HomeVCTests.swift */,
 			);
 			path = NASAPicTests;
 			sourceTree = "<group>";
@@ -389,10 +398,13 @@
 			files = (
 				C36252CF281305B4003678DD /* HttpUtility.swift in Sources */,
 				C3F9B7582811C8F5000481C7 /* Common.swift in Sources */,
+				C36252D828130D13003678DD /* ApodVMTests.swift in Sources */,
 				C3F9B7532811C76C000481C7 /* ApodResponse.swift in Sources */,
 				C36252CC2812F8CA003678DD /* UITextField.swift in Sources */,
-				C3D58005280EF6D7001DBE1F /* NASAPicTests.swift in Sources */,
+				C36252DC2813132A003678DD /* ApiEndpointsTests.swift in Sources */,
 				C3F9B7612811CC36000481C7 /* HomeViewModel.swift in Sources */,
+				C36252DA2813130C003678DD /* ConstantsTests.swift in Sources */,
+				C36252DE2813134C003678DD /* HomeVCTests.swift in Sources */,
 				C36252C92812F8BA003678DD /* UIImageView.swift in Sources */,
 				C36252D628130654003678DD /* ApodResource.swift in Sources */,
 				C36252D2281305C1003678DD /* ApodUrl.swift in Sources */,
