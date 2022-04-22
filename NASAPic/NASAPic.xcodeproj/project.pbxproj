@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C36252C82812F8BA003678DD /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252C72812F8BA003678DD /* UIImageView.swift */; };
+		C36252C92812F8BA003678DD /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252C72812F8BA003678DD /* UIImageView.swift */; };
+		C36252CB2812F8CA003678DD /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252CA2812F8CA003678DD /* UITextField.swift */; };
+		C36252CC2812F8CA003678DD /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36252CA2812F8CA003678DD /* UITextField.swift */; };
 		C3D57FEE280EF6D5001DBE1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57FED280EF6D5001DBE1F /* AppDelegate.swift */; };
 		C3D57FF0280EF6D5001DBE1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57FEF280EF6D5001DBE1F /* SceneDelegate.swift */; };
 		C3D57FF2280EF6D5001DBE1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D57FF1280EF6D5001DBE1F /* ViewController.swift */; };
@@ -48,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C36252C72812F8BA003678DD /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		C36252CA2812F8CA003678DD /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		C3D57FEA280EF6D5001DBE1F /* NASAPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASAPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D57FED280EF6D5001DBE1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3D57FEF280EF6D5001DBE1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +99,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C36252C62812F899003678DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C3D57FE1280EF6D5001DBE1F = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +129,8 @@
 		C3D57FEC280EF6D5001DBE1F /* NASAPic */ = {
 			isa = PBXGroup;
 			children = (
+				C36252C62812F899003678DD /* Services */,
+				C3F9B7622811CD6D000481C7 /* Extentions */,
 				C3F9B75E2811CC0B000481C7 /* ViewModels */,
 				C3F9B7552811C8CC000481C7 /* Common */,
 				C3F9B7542811C7DB000481C7 /* Views */,
@@ -187,6 +202,15 @@
 				C3F9B75F2811CC36000481C7 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C3F9B7622811CD6D000481C7 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				C36252C72812F8BA003678DD /* UIImageView.swift */,
+				C36252CA2812F8CA003678DD /* UITextField.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,7 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36252C82812F8BA003678DD /* UIImageView.swift in Sources */,
 				C3D57FF2280EF6D5001DBE1F /* ViewController.swift in Sources */,
+				C36252CB2812F8CA003678DD /* UITextField.swift in Sources */,
 				C3F9B74F2811C755000481C7 /* ApodRequest.swift in Sources */,
 				C3F9B7602811CC36000481C7 /* HomeViewModel.swift in Sources */,
 				C3D57FEE280EF6D5001DBE1F /* AppDelegate.swift in Sources */,
@@ -340,8 +366,10 @@
 			files = (
 				C3F9B7582811C8F5000481C7 /* Common.swift in Sources */,
 				C3F9B7532811C76C000481C7 /* ApodResponse.swift in Sources */,
+				C36252CC2812F8CA003678DD /* UITextField.swift in Sources */,
 				C3D58005280EF6D7001DBE1F /* NASAPicTests.swift in Sources */,
 				C3F9B7612811CC36000481C7 /* HomeViewModel.swift in Sources */,
+				C36252C92812F8BA003678DD /* UIImageView.swift in Sources */,
 				C3F9B7502811C755000481C7 /* ApodRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
