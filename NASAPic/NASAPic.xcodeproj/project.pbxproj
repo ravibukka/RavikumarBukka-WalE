@@ -458,6 +458,7 @@
 /* Begin XCBuildConfiguration section */
 		C3D58012280EF6D7001DBE1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F9B7592811C9E5000481C7 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -518,6 +519,7 @@
 		};
 		C3D58013280EF6D7001DBE1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F9B7592811C9E5000481C7 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -572,6 +574,7 @@
 		};
 		C3D58015280EF6D7001DBE1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F9B7592811C9E5000481C7 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -599,6 +602,7 @@
 		};
 		C3D58016280EF6D7001DBE1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F9B7592811C9E5000481C7 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -626,6 +630,7 @@
 		};
 		C3D58018280EF6D7001DBE1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F9B7592811C9E5000481C7 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -645,6 +650,7 @@
 		};
 		C3D58019280EF6D7001DBE1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F9B7592811C9E5000481C7 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
