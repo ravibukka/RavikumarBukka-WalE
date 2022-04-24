@@ -9,7 +9,5 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 
-// Enk4mcdh0ikHsd5SALdi9yQul3xFc7BK3HgnYXp9
-//APOD_KEY = lbKs5PUd4i2XP0arFXAPGXgfgTxe4bzgMKVDP4wc
-APOD_KEY = Enk4mcdh0ikHsd5SALdi9yQul3xFc7BK3HgnYXp9
+APOD_KEY = lbKs5PUd4i2XP0arFXAPGXgfgTxe4bzgMKVDP4wc
 BASE_URL = api.nasa.gov
